@@ -1,0 +1,27 @@
+j = la string + (tamanho da string -1) // iterador de j recebe endereço do final do buffer
+// pos = 8 x 4 bytes iterador de posição na matriz recebe endereço do último número
+// pos -- --> -4
+for (int pos = 8; pos >=0; pos --) { // passa por cada número da matriz
+    quebra_de_linha = 0
+	aux = abs(C[pos]);
+	while (aux !=0){ // passa por cada caracter do número
+
+		resto = aux % 10; //resto da divisão (pega o último caracter do número)
+		digito = resto +48; // ao somar, corresponde ao número em ASCII
+		string[j] = digito; // salva na memória com SB (Store Byte)
+		aux = aux/10; // divide por 10 ( diminui o número tirando ultimo caracter já salvo)
+		j--;
+	}
+	if (C[pos]<0){ // se for menor que 0, adiciona na string caracter "-"
+		string[j] = 45; // "-" em ASCII
+		j--
+	}
+	string[j] = 32; // adiciona caracter de espaço para separar números
+	j--
+    quebra_de_linha += 1
+    if (quebra_de_linha == 3){
+        string[j]= 10 // caracter de quebra de linha
+        j--
+        quebra_de_linha = 0
+    }
+}

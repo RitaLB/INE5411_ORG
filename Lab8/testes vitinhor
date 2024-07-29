@@ -1,0 +1,174 @@
+Testes:
+
+------------------------------------------------------
+Número de blocos de cache: 8
+Número de words por bloco: 4
+
+Matriz 8x8:
+
+	1) 54% de hit rate
+	2) 68% de hit rate, tamanho do bloco 2
+	2) 73% de hit rate, tamanho do bloco 4
+	2) 54% de hit rate, tamanho do bloco 8
+
+Matriz 16x16:
+
+	1) 54% de hit rate
+	2) 65% de hit rate, tamanho do bloco 2
+	2) 54% de hit rate, tamanho do bloco 4
+	2) 54% de hit rate, tamanho do bloco 8
+	2) 54% de hit rate, tamanho do bloco 16
+
+Matriz 32x32:
+	
+	1) 54% de hit rate
+	2) 46% de hit rate, tamanho do bloco 2
+	2) 54% de hit rate, tamanho do bloco 4
+	2) 54% de hit rate, tamanho do bloco 8
+	2) 54% de hit rate, tamanho do bloco 16
+	2) 54% de hit rate, tamanho do bloco 32
+
+------------------------------------------------------
+
+Número de blocos de cache: 8
+Número de words por bloco: 8
+
+Matriz 8x8:
+	
+	1) 80% de hit rate
+	2) 74% de hit rate, tamanho do bloco 2
+	2) 74% de hit rate, tamanho do bloco 4
+	2) 80% de hit rate, tamanho do bloco 8
+
+Matriz 16x16:
+	
+	1) 58% de hit rate
+	2) 68% de hit rate, tamanho do bloco 2
+	2) 75% de hit rate, tamanho do bloco 4
+	2) 58% de hit rate, tamanho do bloco 8
+	2) 58% de hit rate, tamanho do bloco 16
+
+Matriz 32x32:
+	
+	1) 58% de hit rate
+	2) 68% de hit rate, tamanho do bloco 2
+	2) 54% de hit rate, tamanho do bloco 4
+	2) 58% de hit rate, tamanho do bloco 8 
+	2) 58% de hit rate, tamanho do bloco 16
+	2) 54% de hit rate, tamanho do bloco 32
+
+------------------------------------------------------
+
+Número de blocos de cache: 8
+Número de words por bloco: 16
+
+Matriz 8x8:
+
+	1) 96% de hit rate
+	2) 96% de hit rate, tamanho do bloco 2
+	2) 96% de hit rate, tamanho do bloco 4
+	2) 96% de hit rate, tamanho do bloco 8
+
+Matriz 16x16:
+
+	1) 60% de hit rate
+	2) 69% de hit rate, tamanho do bloco 2
+	2) 74% de hit rate, tamanho do bloco 4
+	2) 80% de hit rate, tamanho do bloco 8
+	2) 60% de hit rate, tamanho do bloco 16
+
+Matriz 32x32:
+
+	1) 60% de hit rate
+	2) 69% de hit rate, tamanho do bloco 2
+	2) 76% de hit rate, tamanho do bloco 4
+	2) 58% de hit rate, tamanho do bloco 8
+	2) 60% de hit rate, tamanho do bloco 16
+	2) 60% de hit rate, tamanho do bloco 32
+
+======================================================
+
+Número de blocos de cache: 16
+Número de words por bloco: 4
+
+Matriz 8x8:
+
+	1) 73% de hit rate
+	2) 69% de hit rate, tamanho do bloco 2
+	2) 72% de hit rate, tamanho do bloco 4
+	2) 73% de hit rate, tamanho do bloco 8
+	
+Matriz 16x16:
+
+	1) 56% de hit rate
+	2) 70% de hit rate, tamanho do bloco 2
+	2) 78% de hit rate, tamanho do bloco 4
+	2) 56% de hit rate, tamanho do bloco 8
+	2) 56% de hit rate, tamanho do bloco 16
+
+Matriz 32x32:
+
+	1) 56% de hit rate
+	2) 70% de hit rate, tamanho do bloco 2
+	2) 56% de hit rate, tamanho do bloco 4
+	2) 56% de hit rate, tamanho do bloco 8
+	2) 56% de hit rate, tamanho do bloco 16
+	2) 56% de hit rate, tamanho do bloco 32
+
+------------------------------------------------------
+
+Número de blocos de cache: 16
+Número de words por bloco: 8
+
+Matriz 8x8:
+
+	1) 92% de hit rate
+	2) 92% de hit rate, tamanho de bloco 2
+	2) 92% de hit rate, tamanho de bloco 4
+	2) 92% de hit rate, tamanho de bloco 8
+	
+Matriz 16x16:
+
+	1) 60% de hit rate
+	2) 73% de hit rate, tamanho de bloco 2
+	2) 81% de hit rate, tamanho de bloco 4
+	2) 86% de hit rate, tamanho de bloco 8
+	2) 60% de hit rate, tamanho de bloco 16
+	
+Matriz 32x32:
+	
+	1) 60% de hit rate
+	2) 73% de hit rate, tamanho de bloco 2
+	2) 81% de hit rate, tamanho de bloco 4
+	2) 60% de hit rate, tamanho de bloco 8
+	2) 60% de hit rate, tamanho de bloco 16
+	2) 60% de hit rate, tamanho de bloco 32
+
+------------------------------------------------------
+
+Número de blocos de cache: 16
+Número de words por bloco: 16
+
+Matriz 8x8:
+
+	1) 96% de hit rate
+	2) 96% de hit rate, tamanho de bloco 2
+	2) 96% de hit rate, tamanho de bloco 4
+	2) 96% de hit rate, tamanho de bloco 8
+	
+Matriz 16x16:
+
+	1) 90% de hit rate
+	2) 86% de hit rate, tamanho de bloco 2
+	2) 85% de hit rate, tamanho de bloco 4
+	2) 86% de hit rate, tamanho de bloco 8
+	2) 90% de hit rate, tamanho de bloco 16
+	
+Matriz 32x32:
+	
+	1) 63% de hit rate
+	2) 75% de hit rate, tamanho de bloco 2
+	2) 82% de hit rate, tamanho de bloco 4
+	2) 87% de hit rate, tamanho de bloco 8
+	2) 63% de hit rate, tamanho de bloco 16
+	2) 63% de hit rate, tamanho de bloco 32

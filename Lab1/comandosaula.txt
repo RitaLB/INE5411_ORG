@@ -1,0 +1,9 @@
+# exemplo de Comandos para mostrar valores em tela:
+	
+	#lw	$t0, 0($s1)
+	#move	$t9, $t0
+	
+	#addi	$v0, $v0 1
+	#addi	$s0, $s0 10
+	#syscall
+	
